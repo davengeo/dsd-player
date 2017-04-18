@@ -35,8 +35,7 @@ int main(int argc, const char * argv[]) {
 
     
     
-    while ((usbRef = IOIteratorNext(iterator)))
-    {
+    while ((usbRef = IOIteratorNext(iterator))) {
         /* do something with device, eg. check properties */
         /* ... */
         IORegistryEntryGetName(usbRef, deviceName);

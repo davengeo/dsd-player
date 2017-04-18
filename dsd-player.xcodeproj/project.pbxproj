@@ -26,6 +26,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		85325AFF1EA673BD0010D3F9 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		8557FEDD1EA377320005443B /* dsd-player */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "dsd-player"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8557FEE01EA377320005443B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8557FEED1EA386D60005443B /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
@@ -51,6 +52,7 @@
 		8557FED41EA377320005443B = {
 			isa = PBXGroup;
 			children = (
+				85325AFF1EA673BD0010D3F9 /* .gitignore */,
 				8557FEF11EA55B250005443B /* dsd-player.plist */,
 				8557FEE91EA378F20005443B /* samples */,
 				8557FEDF1EA377320005443B /* dsd-player */,
@@ -290,6 +292,7 @@
 				8557FEE61EA377320005443B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
